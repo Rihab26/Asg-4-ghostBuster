@@ -1,10 +1,9 @@
-  double[,] Table = new double [26,6];
-
-  using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using System; 
+
+
 public class Game : MonoBehaviour
 {
     
@@ -21,6 +20,7 @@ public class Game : MonoBehaviour
     public int NumberOfYellow=0;
     public int NumberOfGreens=0;
     public int redDistance=0;
+    public double[,] Table = new double [26,6];
 
   public doule calc(string color, int DistanceFromGhost)
   {
